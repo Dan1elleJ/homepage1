@@ -1,0 +1,29 @@
+h1 {
+    color:rgb(255, 106, 7);
+}
+
+#container {
+    background-color: rgba(247, 238, 123, 0.692);
+    border-style: dotted;
+    border-color: rgb(250, 82, 110);
+    border-width: 22px;
+    width: 600px
+}
+
+#shape {
+height: 100px;
+width: 1000px;
+background-color: rgb(252, 64, 127);
+}
+
+#form {
+    height: 100px;
+    width: 660px;
+    background-color: rgba(247, 218, 54, 0.719);    
+}
+
+#line {
+    height: 10px;
+    width: 1000px;
+    background-color: rgba(250, 99, 28, 0.877);
+}

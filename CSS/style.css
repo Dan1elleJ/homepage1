@@ -1,0 +1,12 @@
+body {
+    background: rgb(245, 206, 225);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.item {
+    height: 100px;
+    border: 2px solid rgb(1, 0, 3);
+}

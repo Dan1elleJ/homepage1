@@ -1,0 +1,83 @@
+body {
+    background: rgb(255, 136, 0);
+    height: 3000px;
+    width: 3000px;
+}
+
+div {
+    height: 200PX;
+    width: 50px;
+    margin: 10px;
+}
+
+.bar-right {
+    background: white;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    transform: skew(25deg);
+    /*transform: rotate(90deg); */
+    /*transform: scale(2); */
+    /*position: static; -elements show up underneath previous elements*/
+}
+
+.bar-centre {
+    background: black;
+    /*position: relative; -positions elements relative to previous static elemnet*/
+    position: absolute;
+    top: 144px;
+    left: 233px;
+    height: 50px;
+    width: 100px;
+}
+
+.bar-left {
+    background: black;
+    position: absolute;
+    top: 50px;
+    left: 207px;
+    transform: skew(-25deg);
+    z-index: 1;
+
+}
+
+#container {
+    background: rgb(255, 208, 1);
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 100px;
+    border-style: dotted;
+    border-color: rgb(2, 2, 2);
+    border-width: 20px;
+}
+
+.flower-centre {
+    height: 300px;
+    width: 300px;
+    background: rgb(255, 208, 1);
+    position: fixed;
+    top: 200px;
+    left: 500px;
+    border-radius: 50%;
+    animation-name: anim;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+}
+
+@keyframes anim {
+0% {background: black;
+left: 100px; }
+
+
+50% {background: white; }
+} 
+
+h1 {
+    font-family: Barriecito-Regular;
+}
+
+@font-face {
+    font-family: 'Barriecito-Regular';
+    src: url(../Fonts/Barriecito-Regular.ttf);
+}
